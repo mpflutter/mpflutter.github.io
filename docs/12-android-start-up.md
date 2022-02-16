@@ -1,6 +1,6 @@
 ---
 id: android-start-up
-title: 介绍
+title: 起步
 ---
 
 > 在开始 Android 起步教程前，建议你先完成[《编写第一个 MPFlutter 应用》](./3-first-app.md)，学习 MPFlutter 的环境搭建以及简单开发步骤。
