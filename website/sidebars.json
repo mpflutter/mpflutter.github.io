@@ -19,6 +19,14 @@
       "weapp-route-page",
       "weapp-subpackage"
     ],
+    "iOS 动态化": [
+      "ios-intro",
+      "ios-start-up"
+    ],
+    "Android 动态化": [
+      "android-intro",
+      "android-start-up"
+    ],
     "界面和路由": [
       "ui-widgets",
       "ui-assets",
