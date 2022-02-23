@@ -72,3 +72,7 @@ MPFlutter 通过 WaterfallView 和 SliderWaterfall 提供瀑布流布局支持�
 ### MPRefreshIndicator
 
 可用于替换 Flutter 中的 RefreshIndicator，可为 ListView / GridView / CustomScrollView 添加一个下拉刷新指示器。
+
+### MPReachBottomListener
+
+可用于监听 ListView GridView WaterfallView CustomScrollView 等组件滚动到底部时的事件，可用于『加载更多』的场景。

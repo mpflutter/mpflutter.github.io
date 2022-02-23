@@ -52,7 +52,8 @@
       "custom-paint",
       "mp-waterfall",
       "mp-circular-progress-indicator",
-      "mp-refresh-indicator"
+      "mp-refresh-indicator",
+      "mp-reach-bottom-listener"
     ],
     "数据调用和后端": ["data-network", "shared-preferences"],
     "外部工具库": [
