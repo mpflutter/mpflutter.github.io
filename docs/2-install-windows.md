@@ -3,6 +3,8 @@ id: install-windows
 title: 在 Windows 中配置环境
 ---
 
+> 即使你本已安装好 Flutter 环境，也必须按照以下教程重新检查一遍，因为 MPFlutter 要求 dart-sdk 也必须导出至 PATH 中。
+
 要使用 MPFlutter 开发应用，必须在本机安装好 Flutter 环境，请按照以下指引安装 Flutter 环境。
 
 ## 系统配置要求

@@ -3,6 +3,8 @@ id: install-linux
 title: 在 Linux 中配置环境
 ---
 
+> 即使你本已安装好 Flutter 环境，也必须按照以下教程重新检查一遍，因为 MPFlutter 要求 dart-sdk 也必须导出至 PATH 中。
+
 关于在 Linux 中安装 Flutter 请参照 [https://flutter.cn/docs/get-started/install/linux](https://flutter.cn/docs/get-started/install/linux)。
 
 需要注意的是，必须将以下 Path 加入环境变量。
