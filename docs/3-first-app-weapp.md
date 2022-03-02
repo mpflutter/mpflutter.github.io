@@ -82,7 +82,31 @@ MPFlutter 通过 热重载 提供快速开发周期，该功能支持应用程�
 
 ## 真机调试
 
-你需要修改 `weapp/app.js` 文件，将其中的 `127.0.0.1` 替换为你的电脑局域网 IP。
+你需要修改 `weapp/app.js` 文件，将其中的 `127.0.0.1` 替换为你的电脑局域网 IP，例如你的 IP 是 192.168.1.2，则代码如下。
+
+```js
+// app.js
+App({
+  onLaunch() {
+    const { MPEnv, Engine, WXApp } = require("./mpdom.min");
+    MPEnv.platformAppInstance = this;
+    try {
+      require("./plugins.min");
+    } catch (error) {}
+    const engine = new Engine();
+    var dev = true;
+    if (dev) {
+      engine.initWithDebuggerServerAddr("192.168.1.2:9898"); // 端口号就是 9898 不用改
+    } else {
+      engine.initWithCodeBlock(Engine.codeBlockWithFile("./main.dart.js"));
+    }
+    const app = new WXApp("pages/index/index", engine);
+    this.app = app;
+    engine.start();
+  },
+  globalData: {},
+});
+```
 
 然后使用微信开发者工具的『真机调试』或『预览』功能实现开发调试。
 
