@@ -154,6 +154,8 @@ dart scripts/build_weapp.dart
 
 构建完成后，产物位于 `build` 目录下。
 
+> 如果提示 dart2js: command not found 请重新走一遍环境配置流程，确保 dart-sdk 已经配置到 PATH 中，flutter 可以正确编译不代表 dart2js 可以正常使用。
+
 ## 预览、上传产物
 
 使用微信开发者工具，导入 `build` 目录，即可预览构建后的应用，并上传至微信服务器。
