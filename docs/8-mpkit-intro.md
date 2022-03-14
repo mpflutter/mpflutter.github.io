@@ -5,6 +5,10 @@ title: MPKit 介绍
 
 MPKit 是 MPFlutter 专为微信小程序、Web 开发的跨端组件库。
 
+### MPEnv
+
+该类提供一些工具方法，帮助你确定当前程序运行的宿主环境，包括 userAgent 也可以在这里获得。
+
 ### MPScaffold
 
 页面脚手架组件，提供标题栏、底栏、正文、浮动元素等页面脚手架能力。

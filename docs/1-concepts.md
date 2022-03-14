@@ -12,6 +12,7 @@ import {MPFlutterPlayground} from './0-playground.mdx';
 
 * 微信小程序
 * 百度小程序
+* 字节小程序、飞书小程序
 * Web (HTML5)
 
 MPFlutter 提供了丰富的组件、接口，开发者可以轻松地为应用添加平台扩展。

@@ -3,6 +3,8 @@ id: first-app-weapp
 title: 开发微信小程序
 ---
 
+> 如果你需要构建百度、字节小程序，也可以按照该教程操作，步骤是类似的。
+
 使用 MPFlutter 可以轻松开发各类小程序，这里以微信小程序为例，讲述如何从零开始创建一个小程序工程，并构建、上传至微信服务器。
 
 你需要先安装好[『微信开发者工具』](https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html)，如果需要真机调试，还需要申请测试帐号或申请正式小程序 AppID。
