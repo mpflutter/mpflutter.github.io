@@ -40,8 +40,6 @@ MPFlutter 的发展离不开社区的支持和反馈，我们很乐意在 GitHub
 
 文章内容、作者。
 
-并添加 ponycui 微信作进一步沟通交流。
-
 ## 捐赠
 
 当前，MPFlutter 是由 PonyCui 主导的开源项目，并未受任何公司控制。
@@ -61,14 +59,6 @@ MPFlutter 将坚持以下原则：
 ![](assets/zan-shang.png)
 
 感谢朋友们的支持：[badboy-tian](https://github.com/badboy-tian)、Jackie、[LondonX](https://github.com/LondonX)、OnePiece、清泉、Yuer、六月_安、果小哥、祝星、木乃伊
-
-### 顶级赞助
-
-您可以通过微信、支付宝转帐等方式赞助 MPFlutter，具体操作方式可以联系 ponycui 微信沟通，我们可以通过以下方式回报你的赞助。
-
-- 在指定时间内，在 MPFlutter 文档站悬挂贵司（或产品）的 Logo 并添加链接。
-- 在此文档页长期展示您的信息（按捐赠时间、金额排序）。
-- 可以邀请作者通过在线、当面的方式开展技术交流活动（差旅费用另计）。
 
 ---
 
