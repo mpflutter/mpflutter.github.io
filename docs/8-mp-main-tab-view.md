@@ -40,6 +40,11 @@ import {API} from './0-api.mdx';
      desc="Tab 控制器，用于控制页面切换。" 
      more="非必填" />
 
+<API name="keepAlive" 
+     type="Bool" 
+     desc="默认值为 false，当该值为 true 时，Tab 切换后，页面状态会被保留。" 
+     more="非必填" />
+
 ### MPMainTabItem
 
 <API name="activeTabWidget" 
