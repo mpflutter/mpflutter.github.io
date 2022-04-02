@@ -55,7 +55,8 @@
       "lib-bloc",
       "lib-provider",
       "lib-simplehtmlcss",
-      "lib-clip-board"
+      "lib-clip-board",
+      "lib-barcode"
     ],
     "平台扩展": [
       "platform-ext-intro",
