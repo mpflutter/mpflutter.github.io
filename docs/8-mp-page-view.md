@@ -31,6 +31,11 @@ import {API} from './0-api.mdx';
      desc="是否循环滚动，即滑动到最后一页时，继续滑动可到达第一页。" 
      more="非必填,默认值为 false" />
 
+<API name="autoplay" 
+     type="bool" 
+     desc="是否自动播放。" 
+     more="非必填,默认值为 false" />
+
 <API name="controller" 
      type="MPPageController?" 
      desc="控制器" 

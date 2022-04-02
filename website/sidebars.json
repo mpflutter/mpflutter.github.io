@@ -19,14 +19,8 @@
       "weapp-route-page",
       "weapp-subpackage"
     ],
-    "iOS 动态化": [
-      "ios-intro",
-      "ios-start-up"
-    ],
-    "Android 动态化": [
-      "android-intro",
-      "android-start-up"
-    ],
+    "iOS 动态化": ["ios-intro", "ios-start-up"],
+    "Android 动态化": ["android-intro", "android-start-up"],
     "界面和路由": [
       "ui-widgets",
       "ui-assets",
@@ -68,7 +62,13 @@
       "platform-ext-web",
       "platform-ext-weapp"
     ],
-    "更多": ["core-team", "get-help", "upgrade-core", "support-us"]
+    "更多": [
+      "core-team",
+      "get-help",
+      "upgrade-core",
+      "support-us",
+      "change-log"
+    ]
   },
   "api": {
     "API": ["api-index"]

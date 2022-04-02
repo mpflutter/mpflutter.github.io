@@ -22,6 +22,8 @@ title: 调用微信小程序内置组件
             tag: 'open-data',
             attributes: {'type': 'userAvatarUrl'},
             style: {'width': '100%', 'height': '100%'},
+            // child: ...
+            // children: ...
           ),
         ),
       ),
