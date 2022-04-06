@@ -3,6 +3,17 @@ id: change-log
 title: 更新日志
 ---
 
+## 0.14.2
+
+### fix
+
+- 修正 MPEditableText 的 onSubmit 和 onEditingComplete 不回调的问题。
+- 修正 MPReachBottomListener 在 ListView 为 false 时不回调的问题。
+- 当页面没有 primary 为 true 的 ScrollView 时，禁止页面滚动。
+- 修正 0.14.1 中 PageView 失效的问题。
+- 修正 MPMainTabView 底部安全区域丢失的问题。
+- 修正 MPScaffold 刷新后状态丢失的问题。
+
 ## 0.14.1
 
 ### feature
