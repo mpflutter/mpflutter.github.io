@@ -10,7 +10,7 @@ title: HTML 渲染库
 ```yaml
 # pubspec.yaml
 dependencies:
-  simple_html_css: ^3.0.1+1
+  simple_html_css: ^3.0.1+2
 ```
 
 具体的使用文档可以到 GitHub 查阅 https://github.com/ali-thowfeek/simple_html_css_flutter
