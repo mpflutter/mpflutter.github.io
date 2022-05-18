@@ -23,7 +23,7 @@ title: 在 macOS 中配置环境
 
 1. 点击下方的安装包，获取 stable 发行通道的 Flutter SDK 最新版本：
 
-   [flutter_macos_2.5.3-stable.zip](https://storage.flutter-io.cn/flutter_infra_release/releases/stable/macos/flutter_macos_2.5.3-stable.zip)
+   [flutter_macos_3.0.0-stable.zip](https://storage.flutter-io.cn/flutter_infra_release/releases/stable/macos/flutter_macos_3.0.0-stable.zip)
 
 2. 将文件解压到目标路径, 比如:
 

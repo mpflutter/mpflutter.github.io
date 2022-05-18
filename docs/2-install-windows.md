@@ -29,7 +29,7 @@ title: 在 Windows 中配置环境
 
 1. 点击下方的安装包，获取 stable 发行通道的 Flutter SDK 最新版本：
 
-   [flutter_windows_2.5.3-stable.zip](https://storage.flutter-io.cn/flutter_infra_release/releases/stable/windows/flutter_windows_2.5.3-stable.zip)
+   [flutter_windows_3.0.0-stable.zip](https://storage.flutter-io.cn/flutter_infra_release/releases/stable/windows/flutter_windows_3.0.0-stable.zip)
 
 2. 将压缩包解压，然后把其中的 flutter 目录整个放在你想放置 Flutter SDK 的路径中（例如 C:\src\flutter）。
 
