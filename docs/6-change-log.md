@@ -3,6 +3,19 @@ id: change-log
 title: 更新日志
 ---
 
+## 0.15.3
+
+### fix
+
+- 全量迁移资源文件至 dist.mpflutter.com，[原因](https://github.com/mpflutter/mpflutter/issues/177)。
+- 修正两个样式问题
+    - https://github.com/mpflutter/mpflutter/issues/174
+    - https://github.com/mpflutter/mpflutter/issues/179
+    - https://github.com/mpflutter/mpflutter/issues/186
+- 修正构建问题
+    - https://github.com/mpflutter/mpflutter/issues/180
+    - https://github.com/mpflutter/mpflutter/issues/178
+
 ## 0.14.2
 
 ### fix
