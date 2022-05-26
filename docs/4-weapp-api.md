@@ -7,7 +7,7 @@ title: 调用微信小程序 API
 
 下面以调用 [`wx.scanCode`](https://developers.weixin.qq.com/miniprogram/dev/api/device/scan/wx.scanCode.html) 为例，讲解如何在 MPFlutter 中调用。
 
-> 在开始该教程前，请先完成[《开发微信小程序》](./first-app-weapp)中的教程，搭建可用于微信小程序开发的工程。
+> 在开始该教程前，请先完成[《开发微信小程序》](./weapp-first-app)中的教程，搭建可用于微信小程序开发的工程。
 
 ## 添加依赖
 

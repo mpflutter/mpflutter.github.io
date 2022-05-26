@@ -61,6 +61,7 @@
     "扩展": [
       "web-plugin-intro",
       "web-plugin-method-channel",
+      "web-plugin-event-channel",
       "web-plugin-platformview"
     ],
     "更多": [

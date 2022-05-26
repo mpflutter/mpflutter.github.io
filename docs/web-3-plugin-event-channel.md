@@ -1,5 +1,5 @@
 ---
-id: web-plugin-method-channel
+id: web-plugin-event-channel
 title: 编写 EventChannel 扩展
 ---
 
