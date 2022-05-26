@@ -1,5 +1,5 @@
 ---
-id: weapp-route-page
+id: weapp-route-page2
 title: 根据路由生成和配置页面
 ---
 

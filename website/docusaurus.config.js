@@ -44,8 +44,15 @@ const siteConfig = {
         src: "img/logo.png",
       },
       items: [
-        { label: "文档", to: "docs/concepts" },
-        { label: "寻求帮助", to: "docs/get-help" },
+        { label: "教程", to: "docs/concepts" },
+        {
+          label: "指南",
+          items: [
+            { label: "Web 应用开发指南", to: "docs/web-intro" },
+            { label: "微信小程序开发指南", to: "docs/weapp-intro" },
+          ],
+        },
+        { label: "帮助", to: "docs/get-help" },
         { label: "支持我们", to: "docs/support-us" },
         {
           label: "GitHub（点个 Star 支持一下呗）",
@@ -61,7 +68,8 @@ const siteConfig = {
           title: "文档",
           items: [
             { label: "介绍", to: "docs/concepts" },
-            { label: "API", to: "docs/api-index" },
+            { label: "Web 应用开发指南", to: "docs/web-intro" },
+            { label: "微信小程序开发指南", to: "docs/weapp-intro" },
           ],
         },
         {

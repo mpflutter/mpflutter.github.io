@@ -1,6 +1,6 @@
 ---
-id: first-app-weapp
-title: 开发微信小程序
+id: weapp-first-app
+title: 编写第一个微信小程序
 ---
 
 > 如果你需要构建百度、字节小程序，也可以按照该教程操作，步骤是类似的。

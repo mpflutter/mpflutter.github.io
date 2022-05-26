@@ -1,26 +1,13 @@
 {
   "docs": {
     "MPFlutter": ["concepts"],
-    "安装": [
+    "环境安装": [
       "install-env",
       "install-windows",
       "install-macos",
       "install-linux"
     ],
-    "编写应用": [
-      "first-app",
-      "first-app-vs",
-      "first-app-as",
-      "first-app-weapp"
-    ],
-    "微信小程序": [
-      "weapp-api",
-      "weapp-view",
-      "weapp-route-page",
-      "weapp-subpackage"
-    ],
-    "iOS 动态化": ["ios-intro", "ios-start-up"],
-    "Android 动态化": ["android-intro", "android-start-up"],
+    "Hello, World!": ["first-app"],
     "界面和路由": [
       "ui-widgets",
       "ui-assets",
@@ -28,7 +15,7 @@
       "ui-animation",
       "ui-widgets-index"
     ],
-    "MPKit": [
+    "MPKit 组件": [
       "mpkit-intro",
       "mp-scaffold",
       "mp-main-tab-view",
@@ -50,18 +37,13 @@
       "mp-reach-bottom-listener"
     ],
     "数据调用和后端": ["data-network", "shared-preferences"],
-    "外部工具库": [
+    "第三方工具库": [
       "lib-getx",
       "lib-bloc",
       "lib-provider",
       "lib-simplehtmlcss",
       "lib-clip-board",
       "lib-barcode"
-    ],
-    "平台扩展": [
-      "platform-ext-intro",
-      "platform-ext-web",
-      "platform-ext-weapp"
     ],
     "更多": [
       "core-team",
@@ -71,6 +53,61 @@
       "change-log"
     ]
   },
+  "guide-web": {
+    "Web 应用": ["web-intro", "web-first-app"],
+    "基本工程": ["web-template-code", "web-route"],
+    "平台特性": ["web-a-tag", "web-cors", "web-dark-mode", "web-safe-area"],
+    "构建及发布": ["web-build", "web-deploy"],
+    "扩展": [
+      "web-plugin-intro",
+      "web-plugin-method-channel",
+      "web-plugin-platformview"
+    ],
+    "更多": [
+      "core-team",
+      "get-help",
+      "upgrade-core",
+      "support-us",
+      "change-log"
+    ]
+  },
+  "guide-weapp": {
+    "微信小程序": ["weapp-intro", "weapp-first-app"],
+    "基本工程": [
+      "weapp-template-code",
+      "weapp-index-page",
+      "weapp-debug-and-release"
+    ],
+    "平台特性": [
+      "weapp-share",
+      "weapp-safe-network",
+      "weapp-dark-mode",
+      "weapp-safe-area",
+      "weapp-subpackage",
+      "weapp-route-page"
+    ],
+    "微信小程序 API 调用": ["weapp-api", "weapp-view"],
+    "构建及发布": ["weapp-build", "weapp-deploy"],
+    "扩展": [
+      "weapp-plugin-intro",
+      "weapp-plugin-method-channel",
+      "weapp-plugin-event-channel",
+      "weapp-plugin-platformview"
+    ],
+    "更多": [
+      "core-team",
+      "get-help",
+      "upgrade-core",
+      "support-us",
+      "change-log"
+    ]
+  },
+  "guide-dynamic": [
+    "ios-intro",
+    "ios-start-up",
+    "android-intro",
+    "android-start-up"
+  ],
   "api": {
     "API": ["api-index"]
   }
