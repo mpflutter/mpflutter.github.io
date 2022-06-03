@@ -7,7 +7,7 @@
       "install-macos",
       "install-linux"
     ],
-    "Hello, World!": ["first-app"],
+    "Hello, World!": ["first-app", "first-app-as", "first-app-vs"],
     "界面和路由": [
       "ui-widgets",
       "ui-assets",
