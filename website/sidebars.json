@@ -43,7 +43,9 @@
       "lib-provider",
       "lib-simplehtmlcss",
       "lib-clip-board",
-      "lib-barcode"
+      "lib-barcode",
+      "lib-cookie-jar",
+      "lib-mp-file"
     ],
     "更多": [
       "core-team",
