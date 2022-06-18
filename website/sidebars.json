@@ -89,7 +89,7 @@
       "weapp-subpackage",
       "weapp-route-page"
     ],
-    "微信小程序 API 调用": ["weapp-api", "weapp-view"],
+    "微信小程序 API 调用": ["weapp-api", "weapp-view", "weapp-ad"],
     "构建及发布": ["weapp-build", "weapp-deploy"],
     "扩展": [
       "weapp-plugin-intro",
