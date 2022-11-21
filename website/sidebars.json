@@ -75,7 +75,7 @@
     ]
   },
   "guide-weapp": {
-    "微信小程序": ["weapp-intro", "weapp-first-app"],
+    "小程序": ["weapp-intro", "weapp-first-app"],
     "基本工程": [
       "weapp-template-code",
       "weapp-index-page",

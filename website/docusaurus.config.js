@@ -49,7 +49,7 @@ const siteConfig = {
           label: "指南",
           items: [
             { label: "Web 应用开发指南", to: "docs/web-intro" },
-            { label: "微信小程序开发指南", to: "docs/weapp-intro" },
+            { label: "小程序开发指南", to: "docs/weapp-intro" },
           ],
         },
         { label: "帮助", to: "docs/get-help" },

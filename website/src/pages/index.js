@@ -66,6 +66,7 @@ const HomeSplash = () => {
           className={classnames(styles.heroButtons, 'name', 'margin-vert--md')}>
           <Button href={useBaseUrl('docs/concepts')}>快速开始</Button>
         </div>
+        <p style={{fontSize: 14, color: 'grey'}}>从 0.18.0 版本开始，支持构建字节、飞书小程序。</p>
       </div>
     </div>
   );
