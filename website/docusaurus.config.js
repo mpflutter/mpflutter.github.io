@@ -52,7 +52,6 @@ const siteConfig = {
             { label: "小程序开发指南", to: "docs/weapp-intro" },
           ],
         },
-        { label: "帮助", to: "docs/get-help" },
         { label: "支持我们", to: "docs/support-us" },
         { label: "技术咨询", to: "docs/tech-support" },
         {
