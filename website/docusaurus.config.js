@@ -54,6 +54,7 @@ const siteConfig = {
         },
         { label: "帮助", to: "docs/get-help" },
         { label: "支持我们", to: "docs/support-us" },
+        { label: "技术咨询", to: "docs/tech-support" },
         {
           label: "GitHub（点个 Star 支持一下呗）",
           href: "https://github.com/mpflutter/mpflutter",
