@@ -63,7 +63,8 @@
       "web-plugin-intro",
       "web-plugin-method-channel",
       "web-plugin-event-channel",
-      "web-plugin-platformview"
+      "web-plugin-platformview",
+      "web-plugin-mpjs"
     ],
     "更多": [
       "core-team",
@@ -93,7 +94,8 @@
       "weapp-plugin-intro",
       "weapp-plugin-method-channel",
       "weapp-plugin-event-channel",
-      "weapp-plugin-platformview"
+      "weapp-plugin-platformview",
+      "weapp-plugin-mpjs"
     ],
     "更多": [
       "core-team",

@@ -24,7 +24,7 @@ dependencies:
   flutter: "0.8.5"
   mpcore: "0.8.5"
   mp_build_tools: "0.8.5"
-  universal_miniprogram_api: ^0.0.4
+  universal_miniprogram_api: ^0.1.0
 ```
 
 使用命令行执行 `./mpflutter packages get` 安装依赖。
@@ -45,12 +45,12 @@ class MyHomePage extends StatelessWidget {
         child: GestureDetector(
           onTap: () {
             UniversalMiniProgramApi.uni.scanCode(
-              ScanCodeOption(
+              ScanCodeOption()..setValues({
                 scanType: ['barCode', 'qrCode'],
                 success: (result) async {
                   print(await result.result);
                 },
-              ),
+              }),
             );
           },
           //child: ...,
