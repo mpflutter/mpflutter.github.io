@@ -134,13 +134,13 @@ MPFlutter 允许开发者复用大部分 Flutter Widget，以下是 MPFlutter �
 - [LimitedBox](https://api.flutter.dev/flutter/widgets/LimitedBox-class.html)
 - [OverflowBox](https://api.flutter.dev/flutter/widgets/OverflowBox-class.html)
 - [SizedOverflowBox](https://api.flutter.dev/flutter/widgets/SizedOverflowBox-class.html)
+- [IndexedStack](https://api.flutter.dev/flutter/widgets/IndexedStack-class.html)
 
 ### 不可用
 
 - [Baseline](https://api.flutter.dev/flutter/widgets/Baseline-class.html)
 - [CustomSingleChildLayout](https://api.flutter.dev/flutter/widgets/CustomSingleChildLayout-class.html)
 - [CustomMultiChildLayout](https://api.flutter.dev/flutter/widgets/CustomMultiChildLayout-class.html)
-- [IndexedStack](https://api.flutter.dev/flutter/widgets/IndexedStack-class.html)
 - [LayoutBuilder](https://api.flutter.dev/flutter/widgets/LayoutBuilder-class.html)
 - [ListBody](https://api.flutter.dev/flutter/widgets/ListBody-class.html)
 
