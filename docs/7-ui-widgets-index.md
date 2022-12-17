@@ -50,7 +50,7 @@ MPFlutter 允许开发者复用大部分 Flutter Widget，以下是 MPFlutter �
 ### 不可用
 
 - [AssetBundle](https://api.flutter.dev/flutter/services/AssetBundle-class.html)
-- [Icon](https://api.flutter.dev/flutter/widgets/Icon-class.html)
+- [Icon](https://api.flutter.dev/flutter/widgets/Icon-class.html) 可以使用 MPIcon 替代
 - [RawImage](https://api.flutter.dev/flutter/widgets/RawImage-class.html)
 
 ## Async
