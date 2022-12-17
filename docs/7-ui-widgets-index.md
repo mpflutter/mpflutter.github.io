@@ -119,6 +119,7 @@ MPFlutter 允许开发者复用大部分 Flutter Widget，以下是 MPFlutter �
 - [ListView](https://api.flutter.dev/flutter/widgets/ListView-class.html)
 - [Row](https://api.flutter.dev/flutter/widgets/Row-class.html)
 - [Stack](https://api.flutter.dev/flutter/widgets/Stack-class.html)
+- [IndexedStack](https://api.flutter.dev/flutter/widgets/IndexedStack-class.html)
 - [Table](https://api.flutter.dev/flutter/widgets/Table-class.html)
 - [Wrap](https://api.flutter.dev/flutter/widgets/Wrap-class.html)
 - [CustomScrollView](https://api.flutter.dev/flutter/widgets/CustomScrollView-class.html)
@@ -134,7 +135,6 @@ MPFlutter 允许开发者复用大部分 Flutter Widget，以下是 MPFlutter �
 - [LimitedBox](https://api.flutter.dev/flutter/widgets/LimitedBox-class.html)
 - [OverflowBox](https://api.flutter.dev/flutter/widgets/OverflowBox-class.html)
 - [SizedOverflowBox](https://api.flutter.dev/flutter/widgets/SizedOverflowBox-class.html)
-- [IndexedStack](https://api.flutter.dev/flutter/widgets/IndexedStack-class.html)
 
 ### 不可用
 
