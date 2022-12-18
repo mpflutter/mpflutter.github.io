@@ -15,7 +15,7 @@ dart:io 库并不能运行在 JS 环境中，因此，dart:io 配套的 File API
 
 ```yaml
 dependencies: 
-  mp_file: ">=0.0.3"
+  mp_file: ">=0.2.0"
 ```
 
 然后执行 `./mpflutter packages get` 安装依赖。
@@ -36,4 +36,39 @@ final fooFile = File('${sandboxDir.path}/foo.txt');
 ```dart
 await fooFile.writeAsString('Hello, World!');
 final content = await fooFile.readAsString();
+```
+
+## 选取文件
+
+mp-file 0.2.0 版本已支持文件选择功能，支持微信小程序、Web，可以用于从相册获取视频、图片，也可以用于从摄像头获取视频、图片。
+
+在 Web 中，使用 `FilePickerView`。
+
+```dart
+FilePickerView(
+  fileKey: ValueKey("foo_file_picker"),
+  count: 2, // 是否可多选
+  mediaType: FilePickerMediaType.image, // 限制媒体类型
+  sourceType: FilePickerSourceType.camera, // 限制媒体来源
+  cameraType: FilePickerCameraType.front, // 指定初始摄像头类型
+  onPickFile: (files) async {
+    if (files.isNotEmpty) {
+      final data = await FileManager.getFileManager()
+          .readFile(files.first);
+    }
+  },
+)
+```
+
+在小程序中，使用 `FilePicker`，
+
+```dart
+final file = await FilePicker.chooseMedia(
+    count: 2,
+    compressed: true,
+    sourceType: FilePickerSourceType.camera,
+    mediaType: FilePickerMediaType.image);
+if (file.isNotEmpty) {
+  final data = await FileManager.getFileManager().readFile(file.first);
+}
 ```
