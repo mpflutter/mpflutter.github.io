@@ -50,6 +50,7 @@ const siteConfig = {
           items: [
             { label: "Web 应用开发指南", to: "docs/web-intro" },
             { label: "小程序开发指南", to: "docs/weapp-intro" },
+            { label: "Flutter Native 开发指南", to: "docs/fn-intro" },
           ],
         },
         { label: "支持我们", to: "docs/support-us" },

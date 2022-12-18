@@ -47,12 +47,7 @@
       "lib-cookie-jar",
       "lib-mp-file"
     ],
-    "更多": [
-      "core-team",
-      "upgrade-core",
-      "support-us",
-      "change-log"
-    ]
+    "更多": ["core-team", "upgrade-core", "support-us", "change-log"]
   },
   "guide-web": {
     "Web 应用": ["web-intro", "web-first-app"],
@@ -66,12 +61,7 @@
       "web-plugin-platformview",
       "web-plugin-mpjs"
     ],
-    "更多": [
-      "core-team",
-      "upgrade-core",
-      "support-us",
-      "change-log"
-    ]
+    "更多": ["core-team", "upgrade-core", "support-us", "change-log"]
   },
   "guide-weapp": {
     "小程序": ["weapp-intro", "weapp-first-app"],
@@ -97,12 +87,10 @@
       "weapp-plugin-platformview",
       "weapp-plugin-mpjs"
     ],
-    "更多": [
-      "core-team",
-      "upgrade-core",
-      "support-us",
-      "change-log"
-    ]
+    "更多": ["core-team", "upgrade-core", "support-us", "change-log"]
+  },
+  "guide-flutter": {
+    "Flutter Native 应用": ["fn-intro", "fn-first-app", "fn-release-app"]
   },
   "guide-dynamic": [
     "ios-intro",
