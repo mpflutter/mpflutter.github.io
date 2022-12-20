@@ -38,7 +38,6 @@ unzip ~/Downloads/flutter_macos_2.5.3-stable.zip
 
 ```
 export PATH="$PATH:`pwd`/flutter/bin"
-export PATH="$PATH:`pwd`/flutter/bin/cache/dart-sdk/bin"
 ```
 
 这个命令配置了 PATH 环境变量，且只会在你 当前 命令行窗口中生效。如果想让它永久生效，请查看 [更新 PATH 环境变量](https://flutter.cn/docs/get-started/install/macos#update-your-path)。
@@ -52,8 +51,6 @@ export PATH="$PATH:`pwd`/flutter/bin/cache/dart-sdk/bin"
 `flutter --version`
 
 `dart --version`
-
-`dart2js --version`
 
 ## 安装 VSCode / Android Studio 插件
 

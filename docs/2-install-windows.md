@@ -47,8 +47,6 @@ title: 在 Windows 中配置环境
 
     * 如果不存在的话，在用户环境变量中创建一个新的 Path 变量，然后将 `flutter\bin` 所在的完整路径作为新变量的值。
 
-    * 划重点，除了 `flutter\bin` 以外，你还需要将 `flutter\bin\cache\dart-sdk\bin` 加入 Path 用户变量中。
-
 你需要重新打开已经打开的命令行提示符窗口，这样下次启动命令提示符时，才能访问到刚才修改的变量。
 
 ## 在 PowerShell 中检查相应命令是否可执行
@@ -58,8 +56,6 @@ title: 在 Windows 中配置环境
 `flutter --version`
 
 `dart --version`
-
-`dart2js --version`
 
 ## 安装 VSCode / Android Studio 插件
 

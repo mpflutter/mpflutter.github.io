@@ -7,12 +7,6 @@ title: 在 Linux 中配置环境
 
 关于在 Linux 中安装 Flutter 请参照 [https://flutter.cn/docs/get-started/install/linux](https://flutter.cn/docs/get-started/install/linux)。
 
-需要注意的是，必须将以下 Path 加入环境变量。
-
-```
-export PATH="$PATH:`pwd`/flutter/bin/cache/dart-sdk/bin"
-```
-
 安装 NodeJS 10.0+ 版本，并确保 `node` 和 `npm` 可在命令行中正确执行。
 
 ## 在终端中检查相应命令是否可执行
@@ -22,8 +16,6 @@ export PATH="$PATH:`pwd`/flutter/bin/cache/dart-sdk/bin"
 `flutter --version`
 
 `dart --version`
-
-`dart2js --version`
 
 ## 安装 VSCode / Android Studio 插件
 
