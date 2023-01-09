@@ -60,3 +60,5 @@ Flutter 自带了一套强大的基础 widgets，下面列出了一些常用的�
 上述例子基于 `StatelessWidget` 构建，但如果在响应手势以后，需要改变 widget 样式，则需要使用 `StatefulWidget` 进行 widget 树构建。
 
 <MPFlutterPlayground source="/zh/samples/tap_gesture.txt" height="500px" />
+
+注意：`GestureDetector` 存在手势冲突问题，`onTap` 与 `onPan` 同时存在时，`onTap` 会被忽略。
