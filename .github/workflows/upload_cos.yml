@@ -21,7 +21,7 @@ jobs:
           node-version: "14.x"
 
       - name: Build project
-        run: echo "export const baseUrl = 'https://mpflutter.com';" > docs/0-url.mdx && cd website && yarn && yarn build
+        run: echo "export const baseUrl = 'https://mpflutter.com';" > docs/0-url.mdx && cd website && npm install && npm run build
 
       - name: Upload COS
         uses: zkqiang/tencent-cos-action@v0.1.0
