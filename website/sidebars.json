@@ -45,7 +45,8 @@
       "lib-clip-board",
       "lib-barcode",
       "lib-cookie-jar",
-      "lib-mp-file"
+      "lib-mp-file",
+      "lib-flchart"
     ],
     "更多": ["core-team", "upgrade-core", "support-us", "change-log"]
   },
@@ -76,7 +77,8 @@
       "weapp-dark-mode",
       "weapp-safe-area",
       "weapp-subpackage",
-      "weapp-route-page"
+      "weapp-route-page",
+      "weapp-loading-view"
     ],
     "微信小程序 API 调用": ["weapp-api", "weapp-view", "weapp-ad"],
     "构建及发布": ["weapp-build", "weapp-deploy"],
