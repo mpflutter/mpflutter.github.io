@@ -13,6 +13,10 @@ title: 使用 VSCode 开发应用
 git clone https://github.com/mpflutter/mpflutter_template.git awesome_project
 ```
 
+如果你使用的是 Flutter 3.7.0 以下版本，使用以下命令克隆模板工程，并且不要升级 MPFlutter 至 1.2.0 以上版本。
+
+git clone -b flutter_3.3.0 https://github.com/mpflutter/mpflutter_template.git
+
 > 我们提供 gitee 镜像，当遇到网络问题时，可以将 github.com 替换成 gitee.com 即可。
 
 ## 安装依赖
