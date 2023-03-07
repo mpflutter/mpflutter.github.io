@@ -95,7 +95,7 @@ const siteConfig = {
         src: "img/oss_logo.png",
         href: "https://github.com/mpflutter/mpflutter",
       },
-      copyright: `Copyright © ${new Date().getFullYear()} MPFlutter Team. Built with Docusaurus. <br /><a href="https://beian.miit.gov.cn/" style="color:white" target="_blank">粤ICP备2021121985号</a>`,
+      copyright: `Copyright © ${new Date().getFullYear()} MPFlutter Team. Built with Docusaurus. <br /><a href="https://beian.miit.gov.cn/" style="color:white" target="_blank">粤ICP备2021121985号</a><br /><span style="color: white">本项目不接受任何违反中国法律行为项目资助，我们也不对任何使用 MPFlutter 开源代码构建的任何应用承担任何法律责任。</span>`,
     },
     image: "img/logo.png",
     gtag: {
