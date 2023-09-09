@@ -48,7 +48,13 @@
       "lib-mp-file",
       "lib-flchart"
     ],
-    "更多": ["core-team", "upgrade-core", "support-us", "change-log"]
+    "更多": [
+      "core-team",
+      "upgrade-core",
+      "support-us",
+      "change-log",
+      "dart3-support"
+    ]
   },
   "guide-web": {
     "Web 应用": ["web-intro", "web-first-app"],
