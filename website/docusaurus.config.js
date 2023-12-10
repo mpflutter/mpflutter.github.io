@@ -55,6 +55,7 @@ const siteConfig = {
         },
         { label: "支持我们", to: "docs/support-us" },
         { label: "技术咨询", to: "docs/tech-support" },
+        { label: "MPFlutter 2.0 - Alpha", to: "https://weypl4zsnv.feishu.cn/wiki/TayPw6pxKiZGdxkNe4bcmSnNnSg" },
         {
           label: "GitHub（点个 Star 支持一下呗）",
           href: "https://github.com/mpflutter/mpflutter",
