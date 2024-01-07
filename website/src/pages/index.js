@@ -66,7 +66,7 @@ const HomeSplash = () => {
           className={classnames(styles.heroButtons, 'name', 'margin-vert--md')}>
           <Button href={useBaseUrl('docs/concepts')}>快速开始</Button>
         </div>
-        <a target="_blank" href="https://weypl4zsnv.feishu.cn/wiki/TayPw6pxKiZGdxkNe4bcmSnNnSg"><p style={{fontSize: 14, color: 'grey'}}>MPFlutter 2.0 Alpha 版本正式发布，欢迎体验。</p></a>
+        <a target="_blank" href="https://weypl4zsnv.feishu.cn/wiki/TayPw6pxKiZGdxkNe4bcmSnNnSg"><p style={{fontSize: 14, color: 'grey'}}>MPFlutter 2.0 正式版发布，欢迎使用。</p></a>
       </div>
     </div>
   );
