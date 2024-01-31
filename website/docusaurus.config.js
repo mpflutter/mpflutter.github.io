@@ -27,7 +27,7 @@ const siteConfig = {
     ],
   ],
   title: "MPFlutter",
-  tagline: "跨平台 Flutter 开发框架",
+  tagline: "Flutter 小程序开发框架",
   organizationName: "mpflutter",
   projectName: "mpflutter.github.io",
   url: "https://mpflutter.github.io",
@@ -44,18 +44,18 @@ const siteConfig = {
         src: "img/logo.png",
       },
       items: [
-        { label: "教程", to: "docs/concepts" },
         {
-          label: "指南",
-          items: [
-            { label: "Web 应用开发指南", to: "docs/web-intro" },
-            { label: "小程序开发指南", to: "docs/weapp-intro" },
-            { label: "Flutter Native 开发指南", to: "docs/fn-intro" },
-          ],
+          label: "起步",
+          to: "https://mpflutter.feishu.cn/wiki/Wh0OwQF0oiUKrIkyLHrcgwMfn6d",
         },
-        { label: "支持我们", to: "docs/support-us" },
-        { label: "技术咨询", to: "docs/tech-support" },
-        { label: "MPFlutter 2.0", to: "https://weypl4zsnv.feishu.cn/wiki/TayPw6pxKiZGdxkNe4bcmSnNnSg" },
+        {
+          label: "平台特性指南",
+          to: "https://mpflutter.feishu.cn/wiki/FASdwpqeKi2ej8kpALOcsECbnuM",
+        },
+        {
+          label: "商用授权购买",
+          to: "https://mpflutter.feishu.cn/wiki/KEL9wIQ7ji4ChmkFnTfcIvJPnzb",
+        },
         {
           label: "GitHub（点个 Star 支持一下呗）",
           href: "https://github.com/mpflutter/mpflutter",
@@ -65,38 +65,13 @@ const siteConfig = {
     },
     footer: {
       style: "dark",
-      links: [
-        {
-          title: "文档",
-          items: [
-            { label: "介绍", to: "docs/concepts" },
-            { label: "Web 应用开发指南", to: "docs/web-intro" },
-            { label: "微信小程序开发指南", to: "docs/weapp-intro" },
-          ],
-        },
-        {
-          title: "交流",
-          items: [
-            {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/mpflutter",
-            },
-          ],
-        },
-        {
-          title: "更多",
-          items: [
-            { label: "Blog", to: "blog" },
-            { label: "GitHub", href: "https://github.com/mpflutter/mpflutter" },
-          ],
-        },
-      ],
+      links: [],
       logo: {
         alt: "MPFlutter Logo",
         src: "img/oss_logo.png",
         href: "https://github.com/mpflutter/mpflutter",
       },
-      copyright: `Copyright © ${new Date().getFullYear()} MPFlutter Team. Built with Docusaurus. <br /><a href="https://beian.miit.gov.cn/" style="color:white" target="_blank">粤ICP备2021121985号</a><br /><span style="color: white">本项目不接受任何违反中国法律行为项目资助，我们也不对任何使用 MPFlutter 开源代码构建的任何应用承担任何法律责任。</span>`,
+      copyright: `Copyright © ${new Date().getFullYear()} MPFlutter Team. Built with Docusaurus. <br /><a href="https://beian.miit.gov.cn/" style="color:white" target="_blank">粤ICP备2021121985号</a>`,
     },
     image: "img/logo.png",
     gtag: {
